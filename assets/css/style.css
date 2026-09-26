@@ -80,11 +80,11 @@ main p {
 }
 
 footer {
-	padding: 10px;
+	padding: 20px;
 	background-color: #2170ff;
 	color: white;
 	text-align: center;
-	font-size: 14px;
+	font-size: 16px;
 }
 
 nav ul {
@@ -105,6 +105,11 @@ nav a {
 	color: #000000;
 	text-decoration: none;
 	padding-bottom: 2px;
+}
+
+nav a:visited,
+nav a:active {
+	color: #000000;
 }
 
 nav a:hover {
@@ -132,9 +137,13 @@ main > section {
 	box-sizing: border-box;
 }
 
-main h2,
-main h3 {
+main h2 {
 	color: #2170ff;
+	margin-bottom: 0.5rem;
+}
+
+main h3 {
+	color: #000000;
 	margin-bottom: 0.5rem;
 }
 
@@ -161,6 +170,11 @@ aside a {
 	text-decoration: none;
 }
 
+aside a:visited,
+aside a:active {
+	color: #000000;
+}
+
 aside a:hover {
 	text-decoration: underline;
 }
@@ -183,13 +197,13 @@ table {
 
 th,
 td {
-	border: 1px solid #2170ff;
+	border: 1px solid #000000;
 	padding: 0.6rem;
 	text-align: left;
 }
 
 th {
-	background-color: #2170ff;
+	background-color: #000000;
 	color: #ffffff;
 }
 
@@ -198,10 +212,12 @@ tr:nth-child(even) {
 }
 
 footer p {
-	font-size: 22px;
+	font-size: 24px;
 }
 
-footer a {
+footer a,
+footer a:visited,
+footer a:active {
 	color: #ffffff;
 	text-decoration: underline;
 }
