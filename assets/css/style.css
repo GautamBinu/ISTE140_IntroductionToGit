@@ -168,6 +168,28 @@ img {
 	height: auto;
 }
 
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 1rem;
+}
+
+th,
+td {
+	border: 1px solid #2170ff;
+	padding: 0.6rem;
+	text-align: left;
+}
+
+th {
+	background-color: #2170ff;
+	color: #ffffff;
+}
+
+tr:nth-child(even) {
+	background-color: #f5f9ff;
+}
+
 footer p {
 	
 	font-size: 22px;
