@@ -1,0 +1,201 @@
+* {
+	box-sizing: border-box;
+	
+}
+
+body {
+	margin: 0;
+	font-family: Arial, Helvetica, sans-serif;
+	min-height: 100vh;
+	background: #f5f9ff;
+	color: #1d1d1d;
+}
+
+header {
+	padding: 1rem;
+}
+
+.MainHeader {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-family: Helvetica, sans-serif;
+}
+
+.MainHeader img {
+	width: 200px;
+	height: 200px;
+}
+
+.MainHeader h1 {
+	margin: 0;
+	font-size: 60px;
+	padding-bottom: 10px;
+	text-align: center;
+}
+
+.MainHeader h1 span {
+	color: #2170ff;
+}
+
+.MainHeader p {
+	margin: 0;
+	font-size: 20px;
+	text-align: center;
+}
+
+nav {
+	padding: 1rem;
+	border-top: 3px solid #2170ff;
+	border-bottom: 3px solid #2170ff;
+	text-align: center;
+	background: #ffffff;
+}
+
+main {
+	padding: 1rem;
+	display: flex;
+	align-items: flex-start;
+	gap: 1rem;
+	text-align: left;
+}
+
+main p {
+	font-size:22px;
+	text-align: justify;
+}
+
+footer {
+	padding: 10px;
+	background-color: #2170ff;
+	color: white;
+	text-align: center;
+	font-size: 14px;
+}
+
+nav ul {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-wrap: wrap;
+	gap: 20px;
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	margin: 0;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+nav a {
+	color: #000000;
+	text-decoration: none;
+	padding-bottom: 2px;
+}
+
+nav a:hover {
+	text-decoration: underline;
+}
+
+main > aside {
+	float: left;          /* Pushes the aside to the left */
+	width: 320px;         /* You must set a fixed width instead of max-width */
+	background: #ffffff;
+	border: 2px solid #000000;
+	padding: 1.25rem;
+	border-radius: 8px;
+	box-sizing: border-box; /* Ensures padding/borders don't break the width calculation */
+}
+
+main > section {
+	float: right;         /* Pushes the section to the right */
+	width: calc(100% - 340px); /* Takes remaining space (leaves 20px gap) */
+	background: #ffffff;
+	border: 2px solid #000000;
+	padding: 20px;
+	border-radius: 8px;
+	line-height: 1.6;
+	box-sizing: border-box;
+}
+
+main h2,
+main h3 {
+	color: #2170ff;
+	margin-top: 0;
+	margin-bottom: 0.5rem;
+}
+
+main p {
+	margin-top: 0;
+	margin-bottom: 0.85rem;
+}
+
+.branches-image {
+	display: block;
+	margin: 0 0 0.85rem;
+	border: 2px solid #2170ff;
+	border-radius: 8px;
+}
+
+aside ol {
+	margin: 0;
+	padding-left: 1.4rem;
+	line-height: 1.9;
+}
+
+aside a {
+	color: #000000;
+	font-weight: bold;
+	font-size: 24px;
+	text-decoration: none;
+}
+
+aside a:hover {
+	text-decoration: underline;
+}
+
+main > aside h2 {
+	font-size: 32px;
+	margin-bottom: 0.75rem;
+}
+
+
+img {
+	max-width: 100%;
+	height: auto;
+}
+
+table {
+	width: 100%;
+	border-collapse: collapse;
+	margin-bottom: 1rem;
+}
+
+th,
+td {
+	border: 1px solid #2170ff;
+	padding: 0.6rem;
+	text-align: left;
+}
+
+th {
+	background-color: #2170ff;
+	color: #ffffff;
+}
+
+tr:nth-child(even) {
+	background-color: #f5f9ff;
+}
+
+footer p {
+	
+	font-size: 22px;
+}
+
+footer a {
+	color: #ffffff;
+	text-decoration: underline;
+}
