@@ -29,16 +29,25 @@ header {
 }
 
 .MainHeader {
-	display: flex;
+	
 	align-items: center;
 	justify-content: center;
 }
 
 
 
+.MainHeader div {
+    float: left;
+	margin-top: 50px;
+	
+}
+
+
 #site-logo {
 	width: 200px;
 	height: 200px;
+	float: left;
+	margin-left: 35%;
 }
 
 .MainHeader h1 {
